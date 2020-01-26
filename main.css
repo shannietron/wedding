@@ -1,12 +1,56 @@
 html, body {
   height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
+  padding-top: 50px;
+}
+
+:lang(ta) {
+  font-family: 'Mukta Malar';
+  font-weight: lighter;
+}
+
+.navbar {
+  background-color: #d5decb;
+  position: fixed;
+}
+
+#home {
   background-image: url(images/background_tile.png);
   background-repeat: repeat;
   background-size: 80px;
   background-attachment: fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+#events {
+  background-image: url(images/beige-tiles.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+#location {
+  background-image: url(images/background_tile.png);
+  background-repeat: repeat;
+  background-size: 80px;
+  background-attachment: fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.list-group-item {
+  background-color: transparent;
+  font-family: 'Rajdhani', cursive;
+  font-size: 2rem;
 }
 
 .col {
@@ -17,27 +61,19 @@ body {
 h1 {
   text-align: center;
   font-family: 'Parisienne', cursive;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 h2 {
   font-weight: lighter;
   font-family: 'Rajdhani', cursive;
+  font-size: 3rem;
 }
 
 h3 {
   font-weight: lighter;
   font-size: 2rem;
   font-family: 'Rajdhani', serif;
-}
-
-.card {
-  border: none;
-  background: #ffe79a;
-}
-
-.card-header {
-  background: #ffa952;
 }
 
 .map-responsive {
@@ -53,6 +89,24 @@ h3 {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
 }
 
 @keyframes fadeInLeft {
