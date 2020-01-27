@@ -11,6 +11,13 @@ body {
 :lang(ta) {
   font-family: 'Mukta Malar';
   font-weight: lighter;
+  color: #666666;
+}
+
+:lang(hi) {
+  font-family: 'Rajdhani';
+  font-weight: lighter;
+  color: #666666;
 }
 
 .navbar {
@@ -20,10 +27,10 @@ body {
 
 #home {
   background-image: url(images/background_tile.png);
-  background-color: #d5decb;
+  background-color: #f9f3d5;
   background-repeat: repeat;
   background-size: 80px;
-  background-attachment: fixed;
+  background-attachment: local;
   display: table;
   height: 100%;
   width: 100%;
@@ -31,8 +38,9 @@ body {
 
 #events {
   background-image: url(images/beige-tiles.png);
+  background-color: #d5decb;
   background-repeat: repeat;
-  background-attachment: fixed;
+  background-attachment: local;
   display: table;
   height: 100%;
   width: 100%;
@@ -40,9 +48,10 @@ body {
 
 #location {
   background-image: url(images/background_tile.png);
+  background-color: #f9f3d5;
   background-repeat: repeat;
   background-size: 80px;
-  background-attachment: fixed;
+  background-attachment: local;
   display: table;
   height: 100%;
   width: 100%;
@@ -58,9 +67,11 @@ body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.fancy{
+
+.fancy {
   font-family: 'Parisienne', cursive;
 }
+
 h1 {
   text-align: center;
   font-size: 4rem;
