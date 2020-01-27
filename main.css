@@ -61,6 +61,7 @@ body {
   background-color: transparent;
   font-family: 'Rajdhani', cursive;
   font-size: 2rem;
+  color: #000000;
 }
 
 .col {
@@ -88,6 +89,14 @@ h3 {
   font-weight: lighter;
   font-size: 2rem;
   font-family: 'Rajdhani', serif;
+}
+
+
+ul{
+  font-family:'Sans';
+  color: #666666;
+  font-size: : 2rem;
+
 }
 
 .map-responsive {
