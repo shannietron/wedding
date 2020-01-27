@@ -20,6 +20,7 @@ body {
 
 #home {
   background-image: url(images/background_tile.png);
+  background-color: #d5decb;
   background-repeat: repeat;
   background-size: 80px;
   background-attachment: fixed;
@@ -57,11 +58,13 @@ body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-
+.fancy{
+  font-family: 'Parisienne', cursive;
+}
 h1 {
   text-align: center;
-  font-family: 'Parisienne', cursive;
   font-size: 4rem;
+  font-family: 'Rajdhani', cursive;
 }
 
 h2 {
