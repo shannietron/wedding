@@ -93,11 +93,13 @@ h3 {
 
 
 ul{
-  font-family:'Sans';
-  color: #666666;
+  font family : Arial, Helvetica, sans-serif;
+  color: #777777;
   font-size: : 2rem;
-
+  text-align: left;
+  display: block;
 }
+
 
 .map-responsive {
   overflow: hidden;
@@ -130,6 +132,15 @@ ul{
   h2 {
     font-size: 2rem;
   }
+
+  span{
+    display: block;
+    text-align: center;
+  }
+  li{
+    text-align: center;
+  }
+
 }
 
 @keyframes fadeInLeft {
@@ -158,4 +169,11 @@ ul{
 
 .fadeInLeft {
   animation-name: fadeInLeft;
+}
+
+footer {
+  text-align:center;
+  background-color: #f9f3d5;
+  color: #989481;
+
 }
