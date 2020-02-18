@@ -174,6 +174,20 @@ ul ul {
   ul ul {
     margin-left: 0;
   }
+
+  .map-responsive iframe {
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .map-responsive {
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    width: 100%;
+  }
 }
 
 @keyframes fadeInLeft {
