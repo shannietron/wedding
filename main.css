@@ -32,7 +32,7 @@ body {
   background-size: 80px;
   background-attachment: local;
   display: table;
-  height: 100%;
+  height: 90%;
   width: 100%;
 }
 
@@ -64,6 +64,15 @@ body {
   color: #000000;
 }
 
+.subtext {
+  margin-left: 1.5rem;
+  list-style: none;
+}
+
+.indent {
+  margin-left: 1.25rem;
+}
+
 .col {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -91,15 +100,23 @@ h3 {
   font-family: 'Rajdhani', serif;
 }
 
+h4 {
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-family: 'Rajdhani', serif;
+}
 
-ul{
-  font family : Arial, Helvetica, sans-serif;
+ul {
+  font family: Arial, Helvetica, sans-serif;
   color: #777777;
   font-size: : 2rem;
   text-align: left;
   display: block;
 }
 
+ul ul {
+  margin-left: 15px;
+}
 
 .map-responsive {
   overflow: hidden;
@@ -133,14 +150,30 @@ ul{
     font-size: 2rem;
   }
 
-  span{
+  span {
     display: block;
     text-align: center;
   }
-  li{
+
+  li {
     text-align: center;
   }
 
+  ul {
+    text-align: center;
+  }
+
+  .subtext {
+    margin-left: 0;
+  }
+
+  .indent {
+    margin-left: 0;
+  }
+
+  ul ul {
+    margin-left: 0;
+  }
 }
 
 @keyframes fadeInLeft {
@@ -172,8 +205,7 @@ ul{
 }
 
 footer {
-  text-align:center;
+  text-align: center;
   background-color: #f9f3d5;
   color: #989481;
-
 }
