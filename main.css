@@ -17,7 +17,7 @@ body {
 :lang(hi) {
   font-family: 'Rajdhani';
   font-weight: lighter;
-  color: #666666;
+  color: #07449f;
 }
 
 .navbar {
@@ -80,6 +80,11 @@ body {
 
 .fancy {
   font-family: 'Parisienne', cursive;
+}
+
+a {
+  color: #07449f;
+
 }
 
 h1 {
