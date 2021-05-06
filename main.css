@@ -5,7 +5,6 @@ html, body {
 }
 
 body {
-  padding-top: 50px;
 }
 
 :lang(ta) {
@@ -17,20 +16,18 @@ body {
 :lang(hi) {
   font-family: 'Rajdhani';
   font-weight: lighter;
-  color: #07449f;
-}
-
-.navbar {
-  background-color: #d5decb;
-  position: fixed;
+  color: #666666;
 }
 
 #home {
-  background-image: url(images/background_tile.png);
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.0)
+    ), url(images/married_bg.jpg);
   background-color: #f9f3d5;
-  background-repeat: repeat;
-  background-size: 80px;
-  background-attachment: local;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
   display: table;
   height: 90%;
   width: 100%;
@@ -224,6 +221,7 @@ ul ul {
 }
 
 footer {
+
   text-align: center;
   background-color: #f9f3d5;
   color: #989481;
