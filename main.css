@@ -24,8 +24,8 @@ body {
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.0)
     ), url(images/married_bg.jpg);
-  background-color: #f9f3d5;
-  background-repeat: repeat-y;
+  background-position: center;
+  background-repeat:  no-repeat;
   background-size: cover;
   background-attachment: fixed;
   display: table;
@@ -189,6 +189,11 @@ ul ul {
     margin: 0;
     height: 500px;
     width: 100%;
+  }
+
+  #home {
+    transform: scale(1);
+    height: 90%;
   }
 }
 
